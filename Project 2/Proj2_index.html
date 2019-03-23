@@ -1,0 +1,54 @@
+<html>
+<head>
+<h1
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="source2.js"></script>
+<style>
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+<div class="dropdown">
+<button class="dropbtn">Select Hours</button>
+  <div id="myDropdown">
+    <select id="hour" onchange="loadMap()">
+      <option value = 1>1</option>
+      <option value = 2>2</option>
+      <option value = 3>3</option>
+      <option value = 4>4</option>
+      <option value = 5>5</option>
+      <option value = 6>6</option>
+      <option value = 7>7</option>
+      <option value = 8>8</option>
+      <option value = 9>9</option>
+      <option value = 10>10</option>
+      <option value = 11>11</option>
+      <option value = 12>12</option>
+    </select>
+    </div>
+
+<div id='ops'></div>
+<script src="source2.js">
+// function get_value(){
+//   var e = document.getElementById('hour').value;
+//   var op = document.getElementById("ops");
+//   op.innerHTML = "You selected crime data at " + e + ":00 am / pm";
+// }
+</script>
+</body>
+
+<body onload="loadMap()">
+<div id="source"; style="width: 95%"></div>
+
+<div id="source2"; style = "height:100%"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+https://raw.githubusercontent.com/charlessokolowski/plotly/master/DataA.json
+
+https://raw.githubusercontent.com/charlessokolowski/plotly/master/DataB.json
+
+https://raw.githubusercontent.com/charlessokolowski/plotly/master/DataC.json
+
+https://raw.githubusercontent.com/charlessokolowski/plotly/master/DataD.json
+
+https://raw.githubusercontent.com/charlessokolowski/plotly/master/DataE.json
